@@ -11,5 +11,6 @@ As the model is twice as deep as a usual model it is necessary to use an activat
 To undertake training we need to use tf.GradientTape() API, which allows for custom training loops with our custom loss function. We need a Nested Gradient Tape in order to calculate derivatives of output w.r.t input => loss value w.r.t trainable variables. In Eager Execution this is very slow, hence we use the decorator @tf.function to speed up which is approx 10x. It is important to first debug in Eager Mode.
 
 File information: 
+
 	- ForceFieldML.py : Force Field Model for simple "HH" molecule, using 200 samples and the LennardJones calculator. 
-	- tune_ffnet  
+	- tune_ffnet : File 
