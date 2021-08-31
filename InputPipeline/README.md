@@ -4,6 +4,7 @@ This folder contains an alternative version of training a Neural Network on the 
 The alternative version includes use of the tf.data API which improves speed up times of Neural Network training. 
 
 methods of the API used:
+
 	- convert the numpy data to tensors, and create a tf.data.Dataset using tf.data.Dataset.from_tensor_slices()
 	
 	- call repeat(), shuffle(), to repeat the dataset for infinite epochs and shuffle each iteration. 
