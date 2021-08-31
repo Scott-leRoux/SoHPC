@@ -6,6 +6,7 @@ Benchmarking on GPU and parallel CPUs.
 in order to reproduce code following commands are necessary 
 
 python3 acsf_data.py
+
 python3 NN_acsf.py 
 
 nn_bench.txt and benchmark.txt contain results from benchmarking the Neural Network Training and Feature Engineering (Descriptor Creation) respectively.
